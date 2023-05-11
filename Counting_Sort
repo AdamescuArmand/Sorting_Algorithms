@@ -15,4 +15,3 @@ sorted_arr = [0] * len(arr)
 for i in arr:
 sorted_arr[count[i]-1] = i
 count[i] -= 1
-return sorted_arr
