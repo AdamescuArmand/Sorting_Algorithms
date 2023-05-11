@@ -16,4 +16,3 @@ def quick_sort(arr):
             arr[low], arr[j] = arr[j], arr[low]
             stack.append((low, j - 1))
             stack.append((j + 1, high))
-    return arr
